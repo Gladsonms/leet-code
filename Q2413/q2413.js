@@ -36,5 +36,8 @@ const getSmallestMultiple = (n) =>{
 }
 
 
-const result=getSmallestMultiple(6)
+const result=getSmallestMultiple(3)
 console.log(result);
+
+
+

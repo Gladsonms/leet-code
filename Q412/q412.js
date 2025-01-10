@@ -33,8 +33,7 @@ const getModifiedString=(n)=>{
     const strings=['Fizz','Buzz']
     const outputString=[]
     for(i=1;i<=n;i++){
-        // console.log(i%3==0&&i%5==0,"here",i);
-        if(i%3==0&&i%5==0){
+        if(i%15==0){
             outputString.push(`${strings[0]}${strings[1]}`)
         }
         else if(i%3==0){
